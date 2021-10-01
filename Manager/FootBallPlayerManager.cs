@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
-using Opgave4REST.Models;
+using FootBall;
+
 
 namespace Opgave4REST.Manager
 {
@@ -17,7 +18,7 @@ namespace Opgave4REST.Manager
         {
             new FootBallPlayer {Id = _nextId++, Name = "Ronaldinho", Price = 1110000, ShirtNumber = 01},
             new FootBallPlayer {Id = _nextId++, Name = "Messi", Price = 2110000, ShirtNumber = 02}
-
+            
         };
 
         //Copy Ctor

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FootBall;
 using Microsoft.AspNetCore.Mvc;
 using Opgave4REST.Manager;
-using Opgave4REST.Models;
+
 
 namespace Opgave4REST.Controllers
 {
